@@ -1,0 +1,49 @@
+.default-cards-wrapper {
+	width: 100%;
+	min-height: 100vh;
+
+	margin-block: 3rem;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	justify-items: center;
+	align-items: center;
+	gap: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.highlight {
+		width: 100%;
+		max-width: 192rem;
+
+		padding-inline: 10rem;
+		margin: auto;
+
+		display: flex;
+		justify-content: center;
+		gap: 8rem;
+	}
+
+	.cards-aside {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	hr {
+		display: block;
+		margin-block: 10rem;
+	}
+
+	.cards-default {
+		max-width: 192rem;
+
+		margin: auto;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: repeat(auto-fill, fit-content);
+		justify-items: center;
+		gap: 1rem;
+	}
+}

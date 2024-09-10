@@ -1,0 +1,85 @@
+.profile-wrapper {
+	padding-block: 30px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.profile-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.change-pic {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.username {
+	font-size: 14px;
+}
+
+.profile-pic {
+	width: 100px;
+	height: 100px;
+
+	display: flex;
+
+	margin: auto;
+
+	border-radius: 50%;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+
+	z-index: 5;
+}
+
+.pic-placeholder {
+	width: 100px;
+	height: 100px;
+
+	display: flex;
+
+	margin: auto;
+
+	border-radius: 50%;
+
+	background-image: url("https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133352010-stock-illustration-default-placeholder-man-and-woman.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.status {
+	text-align: center;
+}
+
+.danger-zone {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.logout {
+	display: flex;
+	justify-content: center;
+}
+
+.change-password form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}

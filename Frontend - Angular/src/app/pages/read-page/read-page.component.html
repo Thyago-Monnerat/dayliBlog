@@ -1,0 +1,22 @@
+<app-header></app-header>
+<div class="back-wrapper">
+	<a (click)="return()">Voltar</a>
+</div>
+
+<div class="article-wrapper">
+	<div class="img-placeholder">
+		<div
+			class="article-img"
+			[ngClass]="{ 'background-image': 'url(' + mainPost.imgUrl + ')' }"
+		></div>
+	</div>
+	<p class="article-date">
+		Criado em {{ mainPost.date | date : "dd/mm/yyyy" }}
+	</p>
+	<div class="article-content">
+		<h2 class="article-title">{{ mainPost.title }}</h2>
+		<p class="article-text">{{ mainPost.content }}</p>
+	</div>
+</div>
+
+<app-footer></app-footer>

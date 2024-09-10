@@ -1,0 +1,22 @@
+.button-wrapper {
+	width: fit-content;
+
+	background-color: #212121;
+
+	padding-inline: 20px;
+	padding-block: 5px;
+
+	border-radius: 10px;
+
+	font-size: 1.4rem;
+
+	color: white;
+	text-decoration: none;
+}
+
+.button-wrapper.danger {
+	background-color: white;
+
+	border: 1px solid red;
+	color: red;
+}

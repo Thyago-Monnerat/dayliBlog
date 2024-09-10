@@ -1,0 +1,11 @@
+<app-header></app-header>
+<form #form="ngForm" (ngSubmit)="createPost(form)" class="create-post">
+	<label for="">Título</label>
+	<input type="text" [(ngModel)]="title" name="title" />
+	<label for="">Imagem Url</label>
+	<input type="text" name="" id="" [(ngModel)]="urlImg" name="urlImg" />
+	<label for="">Conteúdo</label>
+	<textarea name="" id="" [(ngModel)]="content" name="content"></textarea>
+	<button type="submit">Criar</button>
+</form>
+<app-footer></app-footer>

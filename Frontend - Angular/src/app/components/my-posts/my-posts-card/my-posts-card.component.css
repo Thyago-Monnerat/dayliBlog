@@ -1,0 +1,32 @@
+.my-post-card-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	padding: 1rem;
+
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.my-post-card-title {
+	font-weight: bold;
+}
+
+.my-post-card-content {
+	font-size: 1.2rem;
+	font-style: italic;
+	color: #5b5b5b;
+}
+
+.my-post-card-delete {
+	display: flex;
+}
+
+.my-post-card-delete svg {
+	width: 2rem;
+	height: 2rem;
+
+	border: 1px solid #fa5252;
+	border-radius: 0.5rem;
+}

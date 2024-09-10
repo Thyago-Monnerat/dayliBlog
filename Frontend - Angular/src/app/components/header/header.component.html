@@ -1,0 +1,25 @@
+<div class="header-wrapper">
+	<div class="header-bar">
+		<div class="logo-wrapper">
+			<p class="logo-title" [routerLink]="'/'">{{ logo }}</p>
+		</div>
+		<div class="social-wrapper" *ngIf="!this.authenticated">
+			<app-default-button
+				[content]="'Login'"
+				[routerLink]="'/login'"
+			></app-default-button>
+
+			<app-default-button
+				[content]="'Registro'"
+				[routerLink]="'/register'"
+			></app-default-button>
+		</div>
+		<div class="social-wrapper" *ngIf="this.authenticated">
+			<app-default-button
+				[content]="'Criar Post'"
+				[routerLink]="'/create-post'"
+			></app-default-button>
+			<app-profile-button *ngIf="this.authenticated"></app-profile-button>
+		</div>
+	</div>
+</div>

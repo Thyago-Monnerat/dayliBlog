@@ -1,0 +1,47 @@
+.login-form {
+	width: 100%;
+
+	margin: auto;
+	margin-block: 3rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.labels {
+	display: flex;
+	flex-direction: column;
+}
+
+.labels label,
+.labels button {
+	font-size: 2.4rem;
+}
+
+.labels input,
+.labels input:focus {
+	padding: 5px;
+
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 10px;
+
+	outline: none;
+
+	font-size: 1.6rem;
+}
+
+form .labels button {
+	width: 100%;
+	background-color: white;
+
+	padding-block: 5px;
+	padding-inline: 15px;
+
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 10px;
+
+	outline: none;
+}

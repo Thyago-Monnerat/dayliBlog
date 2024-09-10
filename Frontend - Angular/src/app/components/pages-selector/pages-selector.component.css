@@ -1,0 +1,57 @@
+.page-selector {
+	max-width: 192rem;
+	margin: auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+
+	& .left {
+		transform: rotate(180deg);
+	}
+
+	& svg {
+		width: 3rem;
+		height: 3rem;
+	}
+
+	& p {
+		font-size: 1.2rem;
+		transition: all 0.3s ease;
+
+		border-radius: 1rem;
+		padding-block: 1rem;
+		padding-inline: 1.5rem;
+	}
+}
+
+.current {
+	background-color: #212121;
+
+	color: white;
+}
+
+@media screen and (min-width: 1024px) {
+	.page-selector {
+		max-width: 192rem;
+		margin: auto;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		& .left {
+			transform: rotate(180deg);
+		}
+
+		& svg {
+			width: 3rem;
+			height: 3rem;
+		}
+
+		& p {
+			font-size: 1.6rem;
+		}
+	}
+}

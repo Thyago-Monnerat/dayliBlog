@@ -1,0 +1,18 @@
+<div class="profile-wrapper">
+	<app-profile-photo></app-profile-photo>
+	<app-change-password></app-change-password>
+	<app-my-posts></app-my-posts>
+	<div class="danger-zone">
+		<app-default-button
+			(click)="this.deleteMyAccount()"
+			[content]="'Deletar minha conta'"
+			[type]="'danger'"
+		></app-default-button>
+	</div>
+	<app-default-button
+		class="logout"
+		(click)="this.logout()"
+		[content]="'Sair'"
+		[type]="'default'"
+	></app-default-button>
+</div>

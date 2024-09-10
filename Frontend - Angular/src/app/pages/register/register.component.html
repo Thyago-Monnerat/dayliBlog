@@ -1,0 +1,27 @@
+<app-header></app-header>
+<form (ngSubmit)="register()" class="register-form">
+	<div class="labels">
+		<label for="username">Username</label>
+		<input
+			type="text"
+			name="username"
+			id="registerName"
+			[(ngModel)]="username"
+			autocomplete=""
+		/>
+	</div>
+	<div class="labels">
+		<label for="password">Senha</label>
+		<input
+			type="password"
+			name="password"
+			id="registerPassword"
+			[(ngModel)]="password"
+			autocomplete=""
+		/>
+	</div>
+	<div class="labels">
+		<button type="submit">Registrar</button>
+	</div>
+</form>
+<app-footer></app-footer>

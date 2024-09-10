@@ -1,0 +1,41 @@
+.not-found-wrapper {
+	width: 100%;
+	max-width: 192rem;
+	height: 100vh;
+	flex-direction: column;
+
+	padding-inline: 2rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: auto;
+	& h1 {
+		max-width: 192rem;
+
+		display: flex;
+
+		justify-content: center;
+		align-items: center;
+
+		font-size: 2rem;
+		font-weight: 400;
+	}
+	& p {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.not-found-wrapper {
+        padding-inline: 10rem;
+		& h1 {
+			font-size: 8rem;
+			font-weight: 400;
+		}
+		& p {
+			font-size: 5rem;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.create-post {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding: 20px;
+}
+
+.create-post label {
+	margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 10px;
+	font-family: "Quicksand", sans-serif;
+}
+
+*:focus {
+	outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	word-break: break-all;
+}
+
+.swal2-actions .swal2-confirm.swal2-styled {
+	background-color: #212121;
+}
+
+.swal2-actions .swal2-confirm.swal2-styled:focus {
+	box-shadow: none;
+}
+
+.swal2-actions .swal2-confirm.btn-confirm {
+	background-color: red;
+}
+
+body{
+    max-width: 76.8rem;
+	margin: auto;
+}

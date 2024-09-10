@@ -1,0 +1,23 @@
+.profile-button-wrapper {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+
+	background-image: url("https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133352010-stock-illustration-default-placeholder-man-and-woman.jpg");
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.profile-pic-wrapper {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+
+	display: flex;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

@@ -1,0 +1,61 @@
+.default-card {
+	width: 20rem;
+	max-width: 28rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	transition: all 0.1s ease;
+
+	text-decoration: none;
+	color: #212121;
+}
+
+.default-card-placeholder {
+	width: 20rem;
+	height: 12rem;
+
+	background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.default-card-img {
+	width: 20rem;
+	height: 12rem;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.default-card-title {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.default-card-text {
+	word-wrap: break-word;
+	font-size: 1.2rem;
+	font-style: italic;
+	color: #5b5b5b;
+}
+
+.default-card-owner {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.default-card-delete {
+	display: flex;
+	justify-content: end;
+}
+
+.default-card-delete svg {
+	width: 2rem;
+	height: 2rem;
+
+	border: 1px solid #fa5252;
+	border-radius: 0.5rem;
+}

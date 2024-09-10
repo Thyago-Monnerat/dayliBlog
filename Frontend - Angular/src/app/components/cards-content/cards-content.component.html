@@ -1,0 +1,23 @@
+<app-input (valueChange)="updateValue($event)"></app-input>
+
+<div class="default-cards-wrapper">
+	<app-default-card
+		*ngFor="
+			let article of filteredPosts.slice(
+				(currentPage - 1) * numPerPage,
+				currentPage * numPerPage
+			)
+		"
+		[owner]="article.name"
+		[title]="article.title"
+		[content]="article.content"
+		[img]="article.imgUrl"
+		[date]="article.date"
+		[id]="article.sub"
+	></app-default-card>
+</div>
+
+<app-pages-selector
+	[currentPage]="currentPage"
+	[totalPages]="numPages"
+></app-pages-selector>

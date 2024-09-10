@@ -1,0 +1,24 @@
+<div class="profile-photo-wrapper">
+	<div class="profile-photo-placeholder">
+		<div
+			class="profile-photo-img"
+			[ngStyle]="{ 'background-image': 'url(' + user.profilePic + ')' }"
+		></div>
+	</div>
+
+	<div class="profile-photo-change">
+		<div class="input-area">
+			<label for="change-photo">Insira o link da imagem</label>
+			<input
+				type="text"
+				name="change-photo"
+				id="change-photo"
+				[(ngModel)]="newPhoto"
+			/>
+		</div>
+		<app-default-button
+			[content]="'Mudar foto de perfil'"
+			(click)="this.changePhoto()"
+		></app-default-button>
+	</div>
+</div>
