@@ -24,4 +24,4 @@ No futuro, usuários poderão:
 - ⏳ Lista de amigos
 - ⏳ Trocar mensagens com amigos
 ---
-_É meu primeiro projeto próprio, ainda estou adaptando as lógicas da aplicação conforme faço o projeto. O link para o github do projeto [DayliBlog](https://github.com/Thyago-Monnerat/blogPessoal)_
+_É meu primeiro projeto próprio, ainda estou adaptando as lógicas da aplicação conforme faço o projeto._
