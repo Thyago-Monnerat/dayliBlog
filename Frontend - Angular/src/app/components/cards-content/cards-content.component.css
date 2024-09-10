@@ -1,11 +1,11 @@
 .default-cards-wrapper {
 	width: 100%;
-	min-height: 100vh;
-
+	min-height: 50rem;
 	margin-block: 3rem;
 
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+	grid-template-rows: repeat(auto-fill, minmax(27.7rem, 1fr));
 	justify-items: center;
 	align-items: center;
 	gap: 3rem;

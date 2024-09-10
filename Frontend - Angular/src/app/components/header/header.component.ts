@@ -18,7 +18,7 @@ import { UserAuthService } from '../../services/user-auth.service';
 	styleUrl: './header.component.css',
 })
 export class HeaderComponent implements OnInit {
-	logo: string = 'blog';
+	logo: string = 'DailyBlog';
 	authenticated: boolean = false;
 
 	constructor(
