@@ -7,7 +7,7 @@
 	grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 	grid-template-rows: repeat(auto-fill, minmax(27.7rem, 1fr));
 	justify-items: center;
-	align-items: center;
+	align-items: start;
 	gap: 3rem;
 }
 

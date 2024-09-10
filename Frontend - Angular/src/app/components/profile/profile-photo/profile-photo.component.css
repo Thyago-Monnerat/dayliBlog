@@ -1,6 +1,7 @@
 .profile-photo-wrapper {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 3rem;
 }
 
@@ -37,9 +38,15 @@
 	background-position: center;
 }
 
+.profile-photo-name {
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
 .profile-photo-change {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 1rem;
 }
 
@@ -48,6 +55,10 @@
 	flex-direction: column;
 }
 
+.input-area label,
+.input-area input {
+	font-size: 1.8rem;
+}
 .profile-photo-change input {
 	padding-inline: 1rem;
 	padding-block: 0.5rem;

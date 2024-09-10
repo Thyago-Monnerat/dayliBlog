@@ -33,7 +33,8 @@ h6 {
 	background-color: red;
 }
 
-body{
-    max-width: 76.8rem;
+body {
+	min-height: 100vh;
+	max-width: 76.8rem;
 	margin: auto;
 }

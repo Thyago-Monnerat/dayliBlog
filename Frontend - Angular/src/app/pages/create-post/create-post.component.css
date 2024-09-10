@@ -1,11 +1,52 @@
 .create-post {
+	width: 40rem;
+	height: 100vh;
+
+	margin: auto;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 
 	padding: 20px;
 }
 
 .create-post label {
+	margin-top: 20px;
+	font-size: 1.6rem;
+}
+
+.create-post input,
+.create-post textarea {
+	width: 100%;
+	padding: 5px;
+
+	font-size: 1.6rem;
+
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.create-post textarea {
+	min-height: 20rem;
+}
+
+.create-post button {
+	width: fit-content;
+	background-color: #212121;
+
+	padding-inline: 20px;
+	padding-block: 5px;
+
+	border-radius: 10px;
+
+	font-size: 1.4rem;
+
+	color: white;
+	text-decoration: none;
+	border: none;
+
 	margin-top: 20px;
 }
